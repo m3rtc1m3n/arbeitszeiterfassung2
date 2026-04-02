@@ -119,13 +119,34 @@ button:hover {
 
 @media (max-width: 600px) {
 
+    body {
+        height: auto;
+        justify-content: flex-start;
+        padding: 20px 0;
+    }
+
     main {
+        position: static;
+        top: auto;
+        left: auto;
+        transform: none;
+
         width: 90%;
         padding: 20px;
     }
 
+    .wrapper {
+        width: 100%;
+        align-items: center;
+    }
+
+    header {
+        margin-bottom: 15px;
+    }
+
     h1 {
         font-size: 28px;
+        text-align: center;
     }
 
     #timer {
@@ -133,6 +154,7 @@ button:hover {
     }
 
     section {
+        width: 100%;
         padding: 15px;
     }
 
