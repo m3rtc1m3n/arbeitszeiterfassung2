@@ -1,0 +1,118 @@
+/* Reset / Basis */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Allgemein */
+body {
+    font-family: Verdana, sans-serif;
+	background-color: #E1E8ED;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	position: relative;
+}
+
+/* Layout */
+header {
+	width: 100%;
+    text-align: center;
+	margin-bottom: 10px;
+	margin-top: 30px;	
+}
+
+h1 {
+	color: black;
+	font-size: 35px;
+}
+
+
+	/* Hauptbereich */
+main {
+    width: 100%;
+	max-width: 800px;
+	background-color: #55ACEE;
+	padding: 40px;
+	border-radius: 24px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+	gap: 25px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+
+}
+	/* Abschnitte */
+section {
+	width: 100%;
+	padding: 25px 20px 30px 20px;
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;
+	min-height: 140px;	   
+}
+
+section h2 {
+	position: relative;
+	top: -10px;
+}
+
+
+/* Buttons / Elemente */
+button {
+    cursor: pointer;
+	padding: 10px 16px;
+	margin-right: 10px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 12px;
+	font-weight: 600;
+	background-color: #55ACEE;
+	color: white;
+	transition: 0.2s ease;
+		
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+#steuerung button {
+	padding: 12px 20px;
+	font-size: 16px;
+}
+
+
+#steuerung {
+		text-align: center;
+	}
+	
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	}
+
+#timer {
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 5px;
+}
+
+#arbeitszeit {
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 5px;
+}
+	
+#pausenzeit {
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 5px;
+}

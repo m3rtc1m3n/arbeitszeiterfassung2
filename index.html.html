@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Einzelprojekt</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	
+	
+	<div class="wrapper">
+		<header>
+			<!-- Titel / Navigation -->
+			<h1>Arbeitszeiterfassung</h1>
+		</header>
+
+		<!----- Hauptinhalt ----->
+		<main>
+	
+ 
+			<!-- STEUERUNG -->
+			<section id="steuerung">
+				<h2>Steuerung</h2>
+				<button id="startBtn">Start</button>
+				<button id="weiterBtn">Weiter</button>	
+				<button id="pauseBtn">Pause</button>
+				<button id="stopBtn">Stop</button>
+				<button id="resetBtn">Reset</button>
+			
+			</section>
+
+			<!-- ANZEIGE -->
+			<section id="anzeige">
+				<h2>Aktuelle Zeit</h2>
+					<p id="timer">00:00:00</p>
+					<p id="status">Nicht gestartet</p>
+				
+			
+			</section>
+
+			<!-- ÜBERSICHT -->
+			<section id="uebersicht">
+				<h2>Übersicht</h2>
+					<p>Arbeitszeit: <span id="arbeitszeit">00:00:00</span></p>
+					<p>Pausenzeit: <span id="pausenzeit">00:00:00</span></p>
+				
+			
+			</section>
+
+		</main>
+	</div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
